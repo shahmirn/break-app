@@ -1,0 +1,11 @@
+ul {
+   list-style :none;
+}
+
+label {
+    width: 150px;
+}
+
+input.minute {
+    width: 50px;
+}

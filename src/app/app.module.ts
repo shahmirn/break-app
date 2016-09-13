@@ -19,6 +19,7 @@ import { Home } from './home';
 import { About } from './about';
 import { NoContent } from './no-content';
 import { XLarge } from './home/x-large';
+import { PreferencesComponent } from './preferences';
 
 // App Components
 import { Activities } from './activities';
@@ -46,9 +47,10 @@ type StoreType = {
     About,
     Home,
     NoContent,
-    XLarge,
     Activities,
-    ActivitiesPicker
+    ActivitiesPicker,
+    PreferencesComponent,
+    XLarge
   ],
   imports: [ // import Angular's modules
     BrowserModule,

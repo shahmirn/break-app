@@ -1,0 +1,35 @@
+<router-outlet></router-outlet>
+<div class="form-container">
+    <form>
+        <ul>
+            <li>
+                <label for="username">User Name</label>
+                <input [(ngModel)]="userName" type="text" name="userName" id="userName">
+            </li>
+            <li>
+                <label for="activity">Activity</label>
+                <input [(ngModel)]="activity"  name="activity" type="text" id="activity">
+            </li>
+            <li>
+                <label for="frequency">Frequency (min)</label>
+                <input [(ngModel)]="frequency" class="minute" type="number" name="frequency">
+            </li>
+            <li>
+                <label for="duration">Duration (min)</label>
+                <input [(ngModel)]="duration" name="duration" class="minute" type="number">
+            </li>
+            <li>
+                <label for="start">Start Time</label>
+                <input  [(ngModel)]="startTime" type="time" name="startTime">
+            </li>
+            <li>
+                <label for="end">End Time</label>
+                <input  [(ngModel)]="endTime" type="time" name="endtime">
+            </li>
+            <li>
+                <button (click)="submitPreference()" type="submit">Save</button>
+                <button (click)="getPreference()" type="submit">Get Preference</button>
+            </li>
+        </ul>
+    </form>
+</div>
