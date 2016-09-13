@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
 
+import { TypeaheadModule } from 'ng2-bootstrap/ng2-bootstrap';
+
 /*
  * Platform and Environment providers/directives/pipes
  */
@@ -57,7 +59,8 @@ type StoreType = {
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: true }),
-    MdModule.forRoot()
+    MdModule.forRoot(),
+    TypeaheadModule
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
