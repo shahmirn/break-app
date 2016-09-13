@@ -248,6 +248,15 @@ module.exports = function(options) {
         chunksSortMode: 'dependency'
       }),
 
+      new webpack.ProvidePlugin({
+          $: "jquery",
+          jQuery: "jquery",
+          'window.jQuery': 'jquery',
+          'window.$': 'jquery',
+          "Tether": 'tether',
+          "window.Tether": "tether"
+      }),
+
       /*
        * Plugin: HtmlHeadConfigPlugin
        * Description: Generate html tags based on javascript maps.

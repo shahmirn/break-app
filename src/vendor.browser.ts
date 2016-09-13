@@ -5,6 +5,14 @@
 
 // TODO(gdi2290): switch to DLLs
 
+// jQuery
+import 'jquery';
+
+import 'tether/dist/js/tether';
+
+// bootstrap
+import 'bootstrap/dist/js/bootstrap';
+
 // Angular 2
 import '@angular/platform-browser';
 import '@angular/platform-browser-dynamic';
