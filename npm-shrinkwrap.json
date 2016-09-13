@@ -47,6 +47,101 @@
       "from": "@angular/router@3.0.0-rc.2",
       "resolved": "https://registry.npmjs.org/@angular/router/-/router-3.0.0-rc.2.tgz"
     },
+    "@angular2-material/button": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/button@latest",
+      "resolved": "https://registry.npmjs.org/@angular2-material/button/-/button-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/button-toggle": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/button-toggle@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/button-toggle/-/button-toggle-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/card": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/card@latest",
+      "resolved": "https://registry.npmjs.org/@angular2-material/card/-/card-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/checkbox": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/checkbox@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/checkbox/-/checkbox-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/core": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/core@latest",
+      "resolved": "https://registry.npmjs.org/@angular2-material/core/-/core-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/grid-list": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/grid-list@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/grid-list/-/grid-list-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/icon": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/icon@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/icon/-/icon-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/input": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/input@latest",
+      "resolved": "https://registry.npmjs.org/@angular2-material/input/-/input-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/list": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/list@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/list/-/list-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/menu": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/menu@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/menu/-/menu-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/progress-bar": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/progress-bar@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/progress-bar/-/progress-bar-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/progress-circle": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/progress-circle@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/progress-circle/-/progress-circle-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/radio": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/radio@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/radio/-/radio-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/sidenav": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/sidenav@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/sidenav/-/sidenav-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/slide-toggle": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/slide-toggle@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/slide-toggle/-/slide-toggle-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/slider": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/slider@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/slider/-/slider-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/tabs": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/tabs@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/tabs/-/tabs-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/toolbar": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/toolbar@latest",
+      "resolved": "https://registry.npmjs.org/@angular2-material/toolbar/-/toolbar-2.0.0-alpha.8-1.tgz"
+    },
+    "@angular2-material/tooltip": {
+      "version": "2.0.0-alpha.8-1",
+      "from": "@angular2-material/tooltip@2.0.0-alpha.8-1",
+      "resolved": "https://registry.npmjs.org/@angular2-material/tooltip/-/tooltip-2.0.0-alpha.8-1.tgz"
+    },
     "@angularclass/conventions-loader": {
       "version": "1.0.12",
       "from": "@angularclass/conventions-loader@>=1.0.2 <2.0.0",
@@ -138,6 +233,11 @@
       "version": "1.2.0",
       "from": "eventemitter3@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.2.0.tgz"
+    },
+    "hammerjs": {
+      "version": "2.0.8",
+      "from": "hammerjs@>=2.0.8 <3.0.0",
+      "resolved": "https://registry.npmjs.org/hammerjs/-/hammerjs-2.0.8.tgz"
     },
     "he": {
       "version": "0.5.0",
