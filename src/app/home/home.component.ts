@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, AfterContentInit, ViewChild } from '@angular/core';
+
+import { ActivitiesPicker } from '../activities-picker';
 
 import { AppState } from '../app.service';
 import { Title } from './title';
@@ -18,9 +20,12 @@ import { XLarge } from './x-large';
   // Every Angular template is first compiled by the browser before Angular runs it's compiler
   templateUrl: './home.template.html'
 })
-export class Home {
+export class Home implements AfterContentInit {
   // Set our default values
   localState = { value: '' };
+
+  @ViewChild(ActivitiesPicker) private activitiesPicker: ActivitiesPicker;
+
   // TypeScript public modifiers
   constructor(public appState: AppState, public title: Title) {
 
@@ -29,6 +34,12 @@ export class Home {
   ngOnInit() {
     console.log('hello `Home` component');
     // this.title.getData().subscribe(data => this.data = data);
+  }
+
+  ngAfterContentInit() {
+    this.activitiesPicker.submit.subscribe(activity => {
+      console.log(activity);
+    });
   }
 
   submitState(value: string) {
