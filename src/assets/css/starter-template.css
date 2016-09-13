@@ -60,8 +60,14 @@ footer{
 
 md-card {
     padding: 0 !important;
+    margin-bottom: 24px !important;
 }
 
 md-card-content {
     padding: 24px;
+}
+
+md-list-item {
+  display: block;
+  padding-bottom: 60px;
 }

@@ -7,7 +7,10 @@ import { Observable } from 'rxjs/Observable';
     templateUrl: './activities-picker.template.html'
 })
 export class ActivitiesPicker implements OnInit {
-    public activity: Activity = <Activity>{};
+    public activity: Activity = {
+        name: '',
+        duration: 15
+    };
 
     private onSubmitClickBK: EventEmitter<any> = new EventEmitter();
 
@@ -24,7 +27,9 @@ export class ActivitiesPicker implements OnInit {
     }
 }
 
-interface Activity {
+export interface Activity {
     name: String;
     duration: number;
+    startTime?: Date;
+    people?: number;
 }

@@ -1,0 +1,24 @@
+<md-card>
+  <md-toolbar color="primary">Activities</md-toolbar>
+  <md-card-content>
+    <md-list>
+    <md-list-item *ngFor="let activity of activities">
+        <h3 md-line> {{activity.name}} </h3>
+        <p md-line>
+            <span> Start Time </span>
+            <span class="demo-2"> -- {{activity.startTime}} </span>
+        </p>
+        <p md-line>
+            <span> Duration </span>
+            <span class="demo-2"> -- {{activity.duration}} Minutes </span>
+        </p>
+        <p md-line>
+            <span> People </span>
+            <span class="demo-2"> -- {{activity.people}} </span>
+            <button type="button" class="btn btn-primary btn-sm" (click)="increasePeople(activity)">+</button>
+            <button type="button" class="btn btn-secondary btn-sm" (click)="decreasePeople(activity)" [disabled]="activity.people <= 0">-</button>
+        </p>
+    </md-list-item>
+    </md-list>
+  </md-card-content>
+</md-card>

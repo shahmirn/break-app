@@ -20,6 +20,8 @@ import { About } from './about';
 import { NoContent } from './no-content';
 import { XLarge } from './home/x-large';
 
+// App Components
+import { Activities } from './activities';
 import { ActivitiesPicker } from './activities-picker';
 
 // Application wide providers
@@ -45,6 +47,7 @@ type StoreType = {
     Home,
     NoContent,
     XLarge,
+    Activities,
     ActivitiesPicker
   ],
   imports: [ // import Angular's modules

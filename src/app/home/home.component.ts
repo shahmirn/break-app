@@ -1,6 +1,7 @@
 import { Component, AfterContentInit, ViewChild } from '@angular/core';
 
 import { ActivitiesPicker } from '../activities-picker';
+import { Activities } from '../activities';
 
 import { AppState } from '../app.service';
 import { Title } from './title';
@@ -25,6 +26,7 @@ export class Home implements AfterContentInit {
   localState = { value: '' };
 
   @ViewChild(ActivitiesPicker) private activitiesPicker: ActivitiesPicker;
+  @ViewChild(Activities) private activities: Activities;
 
   // TypeScript public modifiers
   constructor(public appState: AppState, public title: Title) {
@@ -38,7 +40,7 @@ export class Home implements AfterContentInit {
 
   ngAfterContentInit() {
     this.activitiesPicker.submit.subscribe(activity => {
-      console.log(activity);
+      this.activities.addActivity(activity);
     });
   }
 
