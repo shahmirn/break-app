@@ -16,7 +16,7 @@ export class ActivitiesPicker implements OnInit {
 
     constructor() { }
 
-    ngOnInit() { }
+    ngOnInit() {}
 
     public onSubmit() {
         this.onSubmitClickBK.emit(this.activity);

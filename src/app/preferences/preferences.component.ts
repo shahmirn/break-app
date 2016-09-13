@@ -49,7 +49,7 @@ export class PreferencesComponent implements OnInit {
             this.userName, this.activity,
             this.frequency, this.duration,
             this.startTime, this.endTime);
-        
+
         this.preferencesService.savePreference(pref);
     }
 }
