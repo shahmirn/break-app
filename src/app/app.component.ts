@@ -14,7 +14,8 @@ import { AppState } from './app.service';
   encapsulation: ViewEncapsulation.None,
   styleUrls: [
     './app.style.css'
-  ]
+  ],
+  templateUrl: './app.template.html'
 })
 export class App {
   angularclassLogo = 'assets/img/angularclass-avatar.png';
