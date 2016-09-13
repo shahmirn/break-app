@@ -2,7 +2,7 @@ export class Preference {
     userName: string;
     activityName: string;
     frequencyInMinutes: number;
-    durationInMinutes: number;
+    duration: number;
     startTime: Date;
     endTime: Date;
 
@@ -11,7 +11,7 @@ export class Preference {
             this.userName = userName;
             this.activityName = activityName;
             this.frequencyInMinutes = frequency;
-            this.durationInMinutes = duration;
+            this.duration = duration;
             this.startTime = startTime;
             this.endTime = endTime;
     }

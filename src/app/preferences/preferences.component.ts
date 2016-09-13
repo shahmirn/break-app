@@ -22,26 +22,19 @@ export class PreferencesComponent implements OnInit {
     constructor(private preferencesService: PreferencesService) {
     }
 
-    ngOnInit() {
-        let pref = this.preferencesService.getPreference(this.userName);
-
-        this.userName = pref.userName;
-        this.activity = pref.activityName;
-        this.frequency = pref.frequencyInMinutes;
-        this.duration = pref.durationInMinutes;
-        this.startTime = pref.startTime;
-        this.endTime = pref.endTime;
-    }
+    ngOnInit() {}
 
     getPreference() {
-        let pref = this.preferencesService.getPreference(this.userName);
-
-        this.userName = pref.userName;
-        this.activity = pref.activityName;
-        this.frequency = pref.frequencyInMinutes;
-        this.duration = pref.durationInMinutes;
-        this.startTime = pref.startTime;
-        this.endTime = pref.endTime;
+        this.preferencesService.getPreference(this.userName).then(
+            pref => {
+                this.userName = pref.userName,
+                this.activity = pref.activityName,
+                this.frequency = pref.frequencyInMinutes;
+                this.duration = pref.duration;
+                this.startTime = pref.startTime;
+                this.endTime = pref.endTime;
+            }
+        );
     }
 
     submitPreference() {
